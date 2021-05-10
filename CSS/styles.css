@@ -1,0 +1,180 @@
+body{
+    font-family: "montserrat-dark";
+    text-align: center;
+}
+ h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color:grey;
+    font-size: 17px;
+    
+}
+
+
+/* headings */
+
+.bigheading{
+    font-family:'Montserrat', sans-serif;
+    line-height: 1.5;
+    size: 3.5rem; 
+    text-align: left;
+ }
+
+ /* containers */
+
+ .container-fluid{
+    padding:7% 15%;  
+}
+
+
+/* sections */
+
+.colored-section{
+    background-color:#ff4c68;
+    color:#fff;
+}
+
+.white-section{
+    background-color: white;
+}
+
+ /* title section  */
+
+#title .container-fluid{
+    padding:3% 15% 7%; 
+} 
+/* title image */
+
+.dogimg{
+    width:60%; 
+    transform:rotate(25deg);
+    position: absolute;
+    left: 14%;
+    top: -15%;
+   
+}
+
+/* pricing section */
+
+.pricingtext{
+    font-size: 2.7rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 2.7rem;
+    line-height: 1.5;
+}
+.pricingcol{
+    padding:3% 2%;
+}
+#pricing{
+    padding:100px;
+}
+
+/* navigation bar  */
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family:'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+}
+
+/* download buttons */
+
+ .download-button{
+    margin: 5% 3% 5% 0;
+}
+.startbutton{
+    text-align: left;
+}
+
+
+/* changes dog img from 25deg to straight on screen size less than laptop/des */
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .dogimg{
+        position:static;
+        width: 60%;
+        transform: rotate(0);
+        text-align: center;
+        
+    }
+ }
+/* features section */
+
+.fea{
+    font-size: 1.1rem;
+    padding: 5%;
+}
+.icon{
+    color:#ef8172;
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+
+}
+.icon :hover{
+    color: #ff4c68;
+}
+
+#features{
+    position:relative;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+
+/* testimonials  section*/
+
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-text{
+    font-size: 2.7rem;
+    line-height: 1.5;
+}
+.testi-img{
+    width:10%;
+    border-radius:100%;
+    margin: 20px;
+}
+
+/* press section */
+
+#press{
+    background-color: #ef8172;
+  
+    padding-bottom:3%;
+}
+.pressimg{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* cta section */
+
+ .dog{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.5;
+
+} 
+/* footer section */
+
+.social-icon{
+    margin: 20px 10px;
+}
